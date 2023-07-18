@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li class="logo"><a href="/"><img src="./images/logo.svg" alt=""></a></li>
+    <li class="dropdown">
+      <a href="#">Features <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow-down"></a>
+      <div class="dropdown-content">
+        <a href="#"><img src="./images/icon-todo.svg" alt="icon-todo">  &nbsp;Todo list</a>
+        <a href="#"><img src="./images/icon-calendar.svg" alt="calendar">  &nbsp;Calendar</a>
+        <a href="#"><img src="./images/icon-reminders.svg" alt="reminders">  &nbsp;Reminders</a>
+        <a href="#"><img src="./images/icon-planning.svg" alt="planning">  &nbsp;Planning</a>
+      </div>
+    <li class="dropdown">
+      <a href="#">Company  <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow-down"></a>
+      <div class="dropdown-content">
+        <a href="#">History</a>
+        <a href="#">Our team</a>
+        <a href="#">Blogs</a>
+      </div>
+    </li>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+  <div class="auth">
+    <a href="#">Login</a>
+    <button class="btn register">Register</button>
+  </div>
+</nav>
+<main>
+  
+  <div class="left">
+<div>
+  <h1 class="heading">
+    Make <br>remote work
+  </h1>
+  <p>
+    Get your team in sync, no matter your location. Streamline processes, 
+    create team rituals, and watch productivity soar.
+  </p>
+  
+  <button class="btn learnMore">Learn more</button>
+</div>
+<div class="icons">
+  <img src="./images/client-databiz.svg" alt="databiz">
+  <img src="./images/client-audiophile.svg" alt="audiophile">
+  <img src="./images/client-meet.svg" alt="meet">
+  <img src="./images/client-maker.svg" alt="maker">
+</div>
+  </div><div class="right">
+    <img class="illustration" src="./images/image-hero-desktop.png" alt="desktop illustration">
+</div>
+</main>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</footer>
+</body>
+</html>
